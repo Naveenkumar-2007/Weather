@@ -1,0 +1,15 @@
+[ 2025-07-05 09:30:23,829 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-07-05 09:30:23,836 ] 97 werkzeug - INFO -  * Debugger PIN: 103-374-885
+[ 2025-07-05 09:30:27,755 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 09:30:27] "[35m[1mPOST /last HTTP/1.1[0m" 500 -
+[ 2025-07-05 09:30:27,834 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 09:30:27] "[36mGET /last?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-07-05 09:30:27,835 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 09:30:27] "[36mGET /last?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-07-05 09:30:27,845 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 09:30:27] "GET /last?__debugger__=yes&cmd=resource&f=console.png&s=qwq60Qsc50o7SQSlqKmx HTTP/1.1" 200 -
+[ 2025-07-05 09:30:27,870 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 09:30:27] "[36mGET /last?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2025-07-05 09:30:30,172 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 09:30:30] "GET /last HTTP/1.1" 200 -
+[ 2025-07-05 09:30:46,786 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 09:30:46] "[35m[1mPOST /last HTTP/1.1[0m" 500 -
+[ 2025-07-05 09:30:46,835 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 09:30:46] "[36mGET /last?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-07-05 09:30:46,837 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 09:30:46] "[36mGET /last?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-07-05 09:30:46,852 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 09:30:46] "[36mGET /last?__debugger__=yes&cmd=resource&f=console.png&s=qwq60Qsc50o7SQSlqKmx HTTP/1.1[0m" 304 -
+[ 2025-07-05 09:30:46,871 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 09:30:46] "[36mGET /last?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2025-07-05 09:33:56,546 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\navee\\Cisco Packet Tracer 8.2.2\\saves\\bentoml\\src\\utlies.py', reloading
+[ 2025-07-05 09:33:56,549 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\navee\\Cisco Packet Tracer 8.2.2\\saves\\bentoml\\src\\utlies.py', reloading

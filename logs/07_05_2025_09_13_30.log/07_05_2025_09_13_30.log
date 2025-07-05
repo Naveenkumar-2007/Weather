@@ -1,0 +1,5 @@
+[ 2025-07-05 09:13:30,975 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-07-05 09:13:30,978 ] 97 werkzeug - INFO -  * Debugger PIN: 103-374-885
+[ 2025-07-05 09:15:13,868 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\navee\\anaconda3\\Lib\\site-packages\\jinja2\\environment.py', reloading
+[ 2025-07-05 09:15:13,868 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\navee\\anaconda3\\Lib\\site-packages\\jinja2\\loaders.py', reloading
+[ 2025-07-05 09:15:13,895 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 09:15:13] "[35m[1mGET / HTTP/1.1[0m" 500 -

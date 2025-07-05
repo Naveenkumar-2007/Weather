@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Prediction</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: #f8f9fa;
+        }
+        .container {
+            max-width: 700px;
+            margin-top: 50px;
+            padding: 30px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Weather Prediction Form</h2>
+        <form method="POST" action="/last">
+            <div class="row g-3">
+                {% for label in [
+                    'MinTemp', 'MaxTemp', 'Rainfall', 'Evaporation',
+                    'Humidity9am', 'Humidity3pm', 'Pressure9am', 'Pressure3pm',
+                    'Cloud9am', 'Cloud3pm', 'Temp9am', 'Temp3pm', 'RISK_MM'
+                ] %}
+                <div class="col-md-6">
+                    <label for="{{ label }}" class="form-label">{{ label }}</label>
+                    <input type="number" step="any" class="form-control" name="{{ label }}" required>
+                </div>
+                {% endfor %}
+
+                <div class="col-md-6">
+                    <label for="RainToday" class="form-label">Rain Today</label>
+                    <select class="form-select" name="RainToday" required>
+                        <option value="">Select...</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+                </div>
+
+                <div class="col-12 text-center mt-4">
+                    <button type="submit" class="btn btn-primary">Predict</button>
+                </div>
+            </div>
+        </form>
+
+        {% if results is defined %}
+        <div class="alert alert-success mt-4 text-center" role="alert">
+            <strong>Tommorrow Weather Prediction Result:</strong> {{ results }}
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
