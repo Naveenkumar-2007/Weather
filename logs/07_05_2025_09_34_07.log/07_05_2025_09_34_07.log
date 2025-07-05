@@ -1,8 +1,0 @@
-[ 2025-07-05 09:34:08,177 ] 97 werkzeug - WARNING -  * Debugger is active!
-[ 2025-07-05 09:34:08,180 ] 97 werkzeug - INFO -  * Debugger PIN: 103-374-885
-[ 2025-07-05 09:34:09,576 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 09:34:09] "GET /last HTTP/1.1" 200 -
-[ 2025-07-05 09:34:32,504 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 09:34:32] "POST /last HTTP/1.1" 200 -
-[ 2025-07-05 09:37:48,215 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 09:37:48] "POST /last HTTP/1.1" 200 -
-[ 2025-07-05 09:38:09,416 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 09:38:09] "POST /last HTTP/1.1" 200 -
-[ 2025-07-05 09:40:50,443 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 09:40:50] "POST /last HTTP/1.1" 200 -
-[ 2025-07-05 09:41:40,160 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 09:41:40] "POST /last HTTP/1.1" 200 -
