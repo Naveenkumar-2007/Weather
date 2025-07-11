@@ -24,7 +24,7 @@ class dataingestion:
     def get_data_ingestion(self):
         try:
             logging.info('training and testing')
-            df=pd.read_csv('C:\\Users\\navee\\Cisco Packet Tracer 8.2.2\\saves\\Weather.csv')
+            df=pd.read_csv('C:\\Users\\navee\\Cisco Packet Tracer 8.2.2\\saves\\bentoml\\notebook\\new_weather.csv')
             os.makedirs(os.path.dirname(self.data_ingestion.traindata),exist_ok=True)
             df.to_csv(self.data_ingestion.rawdata,index=False,header=True)
             logging.info('this is covert raw data')
